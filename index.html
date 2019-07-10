@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock Paper Scissors Game</title>
+  </head>
+
+  <body>
+    <h1>Let's Play Rock Paper Scissors</h1>
+    <main class="score">
+      <div id="user" class="score-style">user</div>
+      <span id="score-user">0</span>:<span id="score-comp">0</span>
+      <div id="comp" class="score-style">comp</div>
+    </main>
+    <div class="new_game">
+      <button id="new_game">Click to start a game!</button>
+    </div>
+
+    <div id="output"></div>
+
+    <p id="roundsShow"></p>
+    <p id="result_win_lose"></p>
+    <p class="result">Choose!</p>
+    <p class="test"></p>
+    <p id="rounds"></p>
+
+    <div class="choices">
+      <div class="choice">
+        <button id="r" disabled="true"><i class="far fa-hand-rock"></i></button>
+      </div>
+      <div class="choice">
+        <button id="p" disabled="true">
+          <i class="far fa-hand-paper"></i>
+        </button>
+      </div>
+      <div class="choice">
+        <button id="s" disabled="true">
+          <i class="far fa-hand-scissors"></i>
+        </button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

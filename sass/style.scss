@@ -1,0 +1,71 @@
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+}
+
+.score {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.score-style {
+  font-size: 30px;
+}
+
+span {
+  font-size: 80px;
+}
+
+#user {
+  margin-right: 100px;
+}
+
+#comp {
+  margin-left: 100px;
+}
+
+.choices {
+  text-align: center;
+}
+
+.choice {
+  display: inline-block;
+}
+
+button {
+  border-radius: 20%;
+  background: white;
+  border: 2px solid black;
+  outline: none;
+}
+
+.far {
+  font-size: 50px;
+}
+
+button:hover {
+  background: pink;
+  cursor: pointer;
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+  color: pink;
+}
+
+.new_game {
+  text-align: center;
+}
+
+#new_game {
+  font-size: 30px;
+}
+
+#roundShow {
+  text-align: center;
+}
